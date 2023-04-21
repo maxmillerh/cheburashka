@@ -5,6 +5,8 @@ let title = document.getElementById('title');
 let description = document.getElementById('description');
 let btn2 = document.getElementById('btn2');
 let poleVopr = document.getElementById('pole_vopr');
+let pay = document.getElementById('pay');
+let pay_modal = document.getElementById('pay_modal');
 
 
 var arrObjects = [];
@@ -264,4 +266,14 @@ btn2.onclick = function () {
 
 }
 
+
+pay.onclick = function(){
+	pay_modal.classList.remove('d-none');
+
+}
+
+pay_modal.onclick = function(){
+	pay_modal.classList.add('d-none');
+
+}
 
